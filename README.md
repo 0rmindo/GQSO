@@ -1,6 +1,7 @@
-# Calculadora API
+# 🧮Calculadora API
 
-## Requisitos Funcionais
+## 🟢Requisitos Funcionais
+
 * API HTTP oara calculadora com 2 operacoes
 * Operacoes:
     - GET /soma/1.5/2.3 retorna "3.8"
@@ -12,7 +13,7 @@
     - GET/ soma
     - GET/ soma/1.0
 
-## Requisitos nao funcional
+## 🟡Requisitos nao funcional
 
 * Codigo fonte livre e aberto
 * licenca MIT(permissiva)
