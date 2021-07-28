@@ -20,11 +20,11 @@
 * Usando o repositorio online  
 * Usar integracao e entradas continuas
 
-## Linguagem aplicada
+## 📖Linguagem aplicada
 
 * Linguagem principal Java
 
-## Ferramentas utilizadas
+## 🌐Ferramentas web utilizadas
 
 * Gitpod
 * Jooby
