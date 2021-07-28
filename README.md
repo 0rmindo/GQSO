@@ -19,3 +19,12 @@
 * licenca MIT(permissiva)
 * Usando o repositorio online  
 * Usar integracao e entradas continuas
+
+## Linguagem aplicada
+
+* Linguagem principal Java
+
+## Ferramentas utilizadas
+
+* Gitpod
+* Jooby
