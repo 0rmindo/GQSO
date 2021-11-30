@@ -1,4 +1,4 @@
-const { sum, resultIsOk } = require('./sun-route.js');
+const { sum, resultIsOk } = require('./sum-route.js');
 
 test('Cinco mais dois resultado sete', () => {
   const params = { num1: 5, num2: 2 };
