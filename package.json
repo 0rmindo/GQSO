@@ -1,14 +1,14 @@
 {
-  "name": "calculadora-gqso",
+  "name": "GQSO",
   "version": "1.0.0",
   "description": "Repositório destinado ao projeto de software alvo da disciplina de **Gestão e Qualidade de Software**.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filipealvess/calculadora-gqso.git"
+    "url": "git+https://github.com/0rmindo/GQSO"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/filipealvess/calculadora-gqso#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
   }
 }
