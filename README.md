@@ -22,7 +22,7 @@
 
 ## 📖Linguagem aplicada
 
-* Linguagem principal Java
+* Linguagem principal Javascript
 
 ## 🌐Ferramentas web utilizadas
 
