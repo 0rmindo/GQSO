@@ -20,7 +20,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
           
       - name: Install dependences
-        run: npm install
+        run: 
+          npm install express
+          npm install
         
       - name: Run sumJS teste
-        run: npx GQSO run
+        run: npm start
