@@ -1,0 +1,26 @@
+name: Execução de testes
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  sum-testes:
+    run-on: umbuntu-latest
+    
+    steps:
+      - name: Chackout testes
+        uses: actions/chackout@v2
+      
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.2.0
+        with:
+          node-version: ${{ matrix.node-version }}
+          
+      - name: Install dependences
+        run: npm install
+        
+      - name: Run sumJS teste
+        run: npx GQSO run
