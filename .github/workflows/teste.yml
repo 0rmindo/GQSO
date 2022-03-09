@@ -8,7 +8,7 @@ on:
 
 jobs:
   sum-testes:
-    run-on: umbuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: Chackout testes
